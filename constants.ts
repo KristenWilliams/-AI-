@@ -1,0 +1,52 @@
+import { Language, Translation } from './types';
+
+export const TRANSLATIONS: Record<Language, Translation> = {
+  [Language.ZH]: {
+    title: '配料表解码器',
+    uploadTitle: '识别食品配料',
+    uploadDesc: '拍摄或上传食品包装背面的配料表，我们将为您分析成分健康指数。',
+    takePhoto: '拍摄照片',
+    uploadGallery: '从相册上传',
+    analyzing: '正在分析成分...',
+    analyzingDesc: 'AI 正在比对国标(GB)、欧标与美标数据库',
+    score: '健康评分',
+    ingredients: '主要配料',
+    additives: '添加剂分析',
+    allergens: '致敏原警示',
+    standards: '法规标准分析',
+    summary: '专家建议',
+    reset: '分析新的图片',
+    safe: '安全',
+    moderate: '注意',
+    high: '高风险',
+    gb: '中国国标',
+    eu: '欧盟标准',
+    us: '美国 FDA',
+    unknown: '未识别',
+    nutrition: '营养成分 (如可见)'
+  },
+  [Language.EN]: {
+    title: 'Label Decoder',
+    uploadTitle: 'Identify Ingredients',
+    uploadDesc: 'Snap or upload the ingredient list on food packaging. We will analyze it for health insights.',
+    takePhoto: 'Take Photo',
+    uploadGallery: 'Upload from Gallery',
+    analyzing: 'Analyzing Ingredients...',
+    analyzingDesc: 'AI is cross-referencing GB, EU, and FDA databases',
+    score: 'Health Score',
+    ingredients: 'Main Ingredients',
+    additives: 'Additives Analysis',
+    allergens: 'Allergen Alert',
+    standards: 'Regulatory Standards',
+    summary: 'Expert Advice',
+    reset: 'Analyze New Image',
+    safe: 'Safe',
+    moderate: 'Caution',
+    high: 'Risky',
+    gb: 'China GB',
+    eu: 'EU Standard',
+    us: 'US FDA',
+    unknown: 'Unknown',
+    nutrition: 'Nutrition (If visible)'
+  }
+};

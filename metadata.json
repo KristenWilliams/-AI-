@@ -1,0 +1,7 @@
+{
+  "name": "FoodDecoder - Ingredient Analyzer",
+  "description": "An AI-powered food ingredient analyzer that helps users identify healthy and harmful additives based on global standards (GB, EU, US).",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
